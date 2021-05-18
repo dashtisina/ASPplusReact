@@ -40,15 +40,15 @@ export function TestApi() {
                 </thead>
                 <tbody>
                     {users.map((users, index) => {
-                        return (
-                            <tr key={index}>
-                                <th scope="row">{index}</th>
-                                <td>{users.user}</td>
-                                <td>{users.text}</td>
-                                <td>{users._id}</td>
-                            </tr>
-                        )
-                    })
+                            return (
+                                <tr key={index}>
+                                    <th scope="row">{index}</th>
+                                    <td>{users.user}</td>
+                                    <td>{users.text}</td>
+                                    <td>{users._id}</td>
+                                </tr>
+                            )
+                        })
                     }
                 </tbody>
             </Table>
